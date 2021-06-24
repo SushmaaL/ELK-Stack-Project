@@ -58,7 +58,7 @@ A summary of the access policies in place can be found in the table below.
 
 | Name        | Publicly Accessible | Allowed IP Addresses          |
 |-------------|---------------------|-------------------------------|
-| Jump-Box-VM | No                  | 138.91.190.74                 |
+| Jump-Box-VM | Yes                 | 138.91.190.74                 |
 | Web-1       | No                  | 10.0.0.10                     |
 | Web-2       | No                  | 10.0.0.10                     |
 | ELK-Stack-VM| No                  | 10.1.0.10                     |
@@ -77,7 +77,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-(Images/DockerPSOutput.png)
+![DockerPS](https://github.com/SushmaaL/ELK-Stack-Project/blob/main/Images/DockerPSOutput.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -92,13 +92,10 @@ We have installed the following Beats on these machines:
 
 These Beats allow us to collect the following information from each machine:
 
- Filebeat:
- - collects the log files, directories and/or events that occur and then forwards them to a specifeid output 
- - example: insert image
-
-Metricbeat:
-- collects the metrics and statistics from the currently running servers  and then forwards them to a specifeid output
-- example: insert image
+- Filebeat - collects the log files, directories and/or events that occur and then forwards them to a specifeid output 
+  - Example: 
+- Metricbeat - collects the metrics and statistics from the currently running servers  and then forwards them to a specifeid output
+  - Example: 
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
