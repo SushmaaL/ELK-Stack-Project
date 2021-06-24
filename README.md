@@ -25,7 +25,7 @@ Load balancing ensures that the application will be highly available, in additio
 
   - It is an extra layer of security which aids in protecting websites from being hacked. Load balancers are a device that helps control the traffic that is being distributed across several servers and it also helps in preventing the occurence of distributed denial-of-service (DDos) attacks. 
   
-  - This is why creating the Jump Box was crucial as it is the only area which provides full access for running administrative tasks across the network, making it a secure admin workstation. Since it is the only access point to modify or change anything in the other VM's that are a part of the resource group, creating this is a huge advantage to have, as it would protect the other VM's from being hacked.
+  - This is why creating the Jump Box was crucial as it is the only area which provides full access for running administrative tasks across the network, making it a secure admin workstation. Since it is the only access point to modify or change anything in the other VM's that are a part of the resource group, creating this is a huge advantage to have as it would protect the other VM's from being hacked.
 
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system traffic.
