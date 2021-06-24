@@ -93,9 +93,9 @@ We have installed the following Beats on these machines:
 These Beats allow us to collect the following information from each machine:
 
 - Filebeat - collects the log files, directories and/or events that occur and then forwards them to a specifeid output 
-  - [Example](GitHub/ELK-Stack-Porject/Images/Filebeat.png) 
+  - [Example](Images/Filebeat.png) 
 - Metricbeat - collects the metrics and statistics from the currently running servers  and then forwards them to a specifeid output
-  - [Example](GitHub/ELK-Stack-Porject/Images/MetricbeatExample.png)
+  - [Example](Images/MetricbeatExample.png)
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
