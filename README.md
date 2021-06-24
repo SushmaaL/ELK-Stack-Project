@@ -6,7 +6,7 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook/YAML files may be used to install only certain pieces of it, such as Filebeat.
 
-  ****- _TODO: Enter the playbook file._
+[Link to all of the Playbook Files](GitHub/ELK-Stack-Porject/Ansible)
 
 This document contains the following details:
 - Description of the Topologu
@@ -93,9 +93,9 @@ We have installed the following Beats on these machines:
 These Beats allow us to collect the following information from each machine:
 
 - Filebeat - collects the log files, directories and/or events that occur and then forwards them to a specifeid output 
-  - Example: 
+  - [Example](GitHub/ELK-Stack-Porject/Images/Filebeat.png) 
 - Metricbeat - collects the metrics and statistics from the currently running servers  and then forwards them to a specifeid output
-  - Example: 
+  - [Example](GitHub/ELK-Stack-Porject/Images/MetricbeatExample.png)
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
