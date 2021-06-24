@@ -49,7 +49,8 @@ The configuration details of each machine may be found below.
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the Jump Box Provisioner machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- Jump Box VM's Whitelisted IP: 138.91.190.74 - Public IP address
+- Jump Box VM's Whitelisted IP: 138.91.190.74 
+  - Using VM's Public IP address
 
 Machines within the network can only be accessed by Jump Box Provisioner.
 - The Jump Box Provisioner will allow access to the ELK Server through SSH.
@@ -70,10 +71,14 @@ you are able to duplicate or add any changes to any of the newly created VM's to
 
 The playbook implements the following tasks:
 
-- Install docker.io - to run the containers
-- Install phython3.pip - to install the Python software
-- Install the docker python module - to control the state of the Docker containers 
-- Download and lauch the docker DWVA web container - to be able to start the container
+- Install docker.io 
+  - to run the containers
+- Install phython3.pip
+  - to install the Python software
+- Install the docker python module
+  - to control the state of the Docker containers 
+- Download and lauch the docker DWVA web container
+  - to be able to start the container
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
