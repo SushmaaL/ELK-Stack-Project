@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-(Images/RedTeamDiagram.jpg)
+(Diagram/RedTeamDiagram.jpg)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook/YAML files may be used to install only certain pieces of it, such as Filebeat.
 
@@ -117,17 +117,17 @@ SSH into the control node and follow the steps below:
 
 These are the following commands the user will need to run to download the playbook:
 
--Command to log in to the environment: ssh azureuser@(JumpBoxPublicIP)
--Command to download playbook: ansible-playbook (name of file.yml)
--Command to update file: nano (name of file)
--Command to verify the container is on: sudo docker container list -a
-  -Command if container is not on: sudo docker start (docker ID)
-  -Command to attach the container to the VM: sudo docker attach (docker ID)
--Command to create and/or edit the files/hosts: nano files/hosts
--Command to access the files directory in ansible: cd /etc/ansible/files
--Command to acced the roles directory in ansible: cd /etc/ansible/roles
--Commands to update the files and all servers:
-  -ansible-playbook elk-playbook.yml
-  -ansible-playbook filebeat-playbook.yml
-  -ansible-playbook metricbeat-playbook.yml
--Website to ensure all the files are being recieved: http://[your.VM.IP]:5601/app/kibana
+- Command to log in to the environment: ssh azureuser@(JumpBoxPublicIP)
+- Command to download playbook: ansible-playbook (name of file.yml)
+- Command to update file: nano (name of file)
+- Command to verify the container is on: sudo docker container list -a
+  - Command if container is not on: sudo docker start (docker ID)
+  - Command to attach the container to the VM: sudo docker attach (docker ID)
+- Command to create and/or edit the files/hosts: nano files/hosts
+- Command to access the files directory in ansible: cd /etc/ansible/files
+- Command to acced the roles directory in ansible: cd /etc/ansible/roles
+- Commands to update the files and all servers:
+  - ansible-playbook elk-playbook.yml
+  - ansible-playbook filebeat-playbook.yml
+  - ansible-playbook metricbeat-playbook.yml
+- Website to ensure all the files are being recieved: http://[your.VM.IP]:5601/app/kibana
