@@ -62,7 +62,7 @@ A summary of the access policies in place can be found in the table below.
 | Jump-Box-VM | Yes                 | 138.91.190.74                 |
 | Web-1       | No                  | 10.0.0.10                     |
 | Web-2       | No                  | 10.0.0.10                     |
-| ELK-Stack-VM| No                  | 10.1.0.10                     |
+| ELK-Stack-VM| No                  | 10.0.0.10                     |
 
 ### Elk Configuration
 
