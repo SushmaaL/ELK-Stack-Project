@@ -39,10 +39,10 @@ The configuration details of each machine may be found below.
 
 | Name        | Function     | IP Address  | Operating System |
 |-------------|--------------|------------ |------------------|
-| Jump-Box-VM | Gateway      | 10.0.0.10   | Linux (Ubuntu)   |
-| Web-1       | Server       | 10.0.0.8    | Linux (Ubuntu)   |
-| Web-2       | Server       | 10.0.0.9    | Linux (Ubuntu)   |
-| ELK-Stack-VM| Log Server   | 10.1.0.4    | Linux (Ubuntu)   |
+| Jump-Box-VM | Gateway      | 10.0.0.10   | Linux            |
+| Web-1       | Server       | 10.0.0.8    | Linux            |
+| Web-2       | Server       | 10.0.0.9    | Linux            |
+| ELK-Stack-VM| Log Server   | 10.1.0.4    | Linux            |
 
 ### Access Policies
 
