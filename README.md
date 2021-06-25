@@ -116,7 +116,7 @@ SSH into the control node and follow the steps below:
 
 - You would navigate to this URL to check that the ELK server is rnning: http://[your.VM.IP]:5601/app/kibana - use the public IP address of the ELK server
 
-
+### Commands for the Playbook
 These are the following commands the user will need to run to download the playbook:
 
 - Command to log in to the environment: ssh azureuser@(JumpBoxPublicIP)
